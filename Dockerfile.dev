@@ -3,7 +3,7 @@ FROM node
 WORKDIR '/app'
 
 COPY package.json .
-RUN npm install -g npm@9.6.4
+RUN npm install -g npm
 RUN npm install react-scripts
 
 COPY . .
